@@ -1,0 +1,5 @@
+package com._igmar.workshopmongo.domain;
+
+public class User {
+
+}
