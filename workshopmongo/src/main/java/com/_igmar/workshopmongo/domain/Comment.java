@@ -11,17 +11,18 @@ public class Comment {
 	
 	private String text;
 	private Date date;
-	
+	private User author;
 	
 	public Comment() {
 		
 	}
 
 
-	public Comment(String text, Date date) {
+	public Comment(String text, Date date,User author) {
 		super();
 		this.text = text;
 		this.date = date;
+		this.author= author;
 	}
 
 
@@ -42,6 +43,16 @@ public class Comment {
 
 	public void setDate(Date date) {
 		this.date = date;
+	}
+
+
+	public User getAuthor() {
+		return author;
+	}
+
+
+	public void setAuthor(User author) {
+		this.author = author;
 	}
 	
 	
