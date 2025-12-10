@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com._igmar.workshopmongo.domain.User;
+import com._igmar.workshopmongo.dto.UserDTO;
 import com._igmar.workshopmongo.repository.UserRepository;
 import com._igmar.workshopmongo.services.exception.ObjecNotFoundException;
 
@@ -26,7 +27,14 @@ public class UserService {
 	if(id == null) {
 	 throw new IllegalArgumentException("ID não pode ser nulo");
 	}
-	
 	return repo .findById(id).orElseThrow(() -> new ObjecNotFoundException("Objeto não encotrado"));
 	}
+	
+	public User insert(User obj) {
+		return repo.insert(obj);
+	}
+	public User fromDTO(UserDTO objDto) {
+		return new User(objDto.getId(),objDto.getName(), objDto.getEmail());
+	}
 }
+

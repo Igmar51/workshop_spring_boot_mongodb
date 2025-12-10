@@ -1,31 +1,78 @@
-43:26:43 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-43:26:43 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-43:26:43 Microsoft.Shutdown.TabStripModel.CloseTabs
-43:26:43 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-43:26:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-43:26:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-43:26:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-43:26:43 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-43:26:43 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-43:26:43 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-43:26:43 Tab101 RenderProcessGone
-43:26:43 Microsoft.UnloadController.ClearUnloadState
-43:26:43 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-43:26:43 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-43:26:43 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-43:26:43 Microsoft.UnloadController.ClearUnloadState
-43:26:43 Browser101 Close Tab101 at 0
-43:26:43 Tab101 WebContentsDestroyed
-43:26:43 Microsoft.UnloadController.TabStripEmpty
-43:26:43 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-43:26:43 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-43:26:43 Microsoft.Shutdown.OnWindowClosing
-43:26:43 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-43:26:43 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-43:26:43 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-43:26:43 Widget Closed: BrowserWidget
-43:26:43 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-43:26:43 Microsoft.Shutdown.OnWindowClosing
-43:26:43 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-43:26:43 Microsoft.Browser_Removed
-43:27:43 Memory Pressure: Moderate
+67:39:24 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+67:39:24 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+67:39:24 Microsoft.Shutdown.TabStripModel.CloseTabs
+67:39:24 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+67:39:24 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+67:39:24 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+67:39:24 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+67:39:24 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+67:39:24 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+67:39:24 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+67:39:24 Tab144 RenderProcessGone
+67:39:24 Microsoft.UnloadController.ClearUnloadState
+67:39:24 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+67:39:24 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+67:39:24 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+67:39:24 Microsoft.UnloadController.ClearUnloadState
+67:39:24 Browser144 Close Tab144 at 0
+67:39:24 Tab144 WebContentsDestroyed
+67:39:24 Microsoft.UnloadController.TabStripEmpty
+67:39:24 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+67:39:24 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+67:39:24 Microsoft.Shutdown.OnWindowClosing
+67:39:24 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+67:39:24 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+67:39:24 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+67:39:24 Widget Closed: BrowserWidget
+67:39:24 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+67:39:24 Microsoft.Shutdown.OnWindowClosing
+67:39:24 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+67:39:24 Microsoft.Browser_Removed
+67:39:31 Tab141 StartNav695 #typed
+67:39:31 Tab141 FinishNav695
+67:39:31 Tab141 PageLoad
+67:39:33 Tab141 StartNav696 #typed
+67:39:33 Tab141 FinishNav696
+67:39:33 Tab141 PageLoad
+67:39:37 Tab141 StartNav697 #typed
+67:39:37 Tab141 FinishNav697
+67:39:37 Tab141 PageLoad
+67:40:34 Memory Pressure: Moderate
+67:40:54 Tab141 StartNav698 #typed
+67:40:54 Tab141 FinishNav698
+67:40:54 Tab141 PageLoad
+67:41:45 Tab141 StartNav699 #typed
+67:41:45 Tab141 FinishNav699
+67:41:45 Tab141 PageLoad
+67:41:46 Tab141 StartNav700 #typed
+67:41:46 Tab141 FinishNav700
+67:41:46 Tab141 PageLoad
+67:42:39 Memory Pressure: Moderate
+67:43:04 Memory Pressure: Moderate
+67:43:14 Memory Pressure: Moderate
+67:44:15 Memory Pressure: Moderate
+67:46:55 Memory Pressure: Moderate
+67:47:05 Memory Pressure: Moderate
+67:47:15 Memory Pressure: Moderate
+67:47:30 Memory Pressure: Moderate
+67:47:40 Memory Pressure: Moderate
+67:47:50 Memory Pressure: Moderate
+67:48:00 Memory Pressure: Moderate
+67:48:10 Memory Pressure: Moderate
+67:48:20 Memory Pressure: Moderate
+67:48:30 Memory Pressure: Moderate
+67:48:40 Memory Pressure: Moderate
+67:48:50 Memory Pressure: Moderate
+67:49:00 Memory Pressure: Moderate
+67:49:10 Memory Pressure: Moderate
+67:49:20 Memory Pressure: Moderate
+67:49:30 Memory Pressure: Moderate
+67:49:40 Memory Pressure: Moderate
+67:49:50 Memory Pressure: Moderate
+67:50:00 Memory Pressure: Moderate
+67:50:10 Memory Pressure: Moderate
+67:50:20 Memory Pressure: Moderate
+67:50:30 Memory Pressure: Moderate
+67:50:40 Memory Pressure: Moderate
+67:50:50 Memory Pressure: Moderate
+67:51:00 Memory Pressure: Moderate

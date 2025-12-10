@@ -5,13 +5,20 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import com._igmar.workshopmongo.config.Instantiation;
+import com._igmar.workshopmongo.domain.User;
 import com._igmar.workshopmongo.services.exception.ObjecNotFoundException;
 
 import jakarta.servlet.http.HttpServletRequest;
-import jdk.jshell.Snippet.Status;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
+
+    private final Instantiation instantiation;
+
+    ResourceExceptionHandler(Instantiation instantiation) {
+        this.instantiation = instantiation;
+    }
 
 	@ExceptionHandler(ObjecNotFoundException.class)
 	public ResponseEntity<StandardError> objectNotFound(ObjecNotFoundException e , HttpServletRequest request) {
@@ -22,3 +29,6 @@ public class ResourceExceptionHandler {
 	    return ResponseEntity.status(status).body(err);
 	}
 }
+	
+
+
