@@ -4,6 +4,8 @@ import java.util.Date;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com._igmar.workshopmongo.dto.AuthorDTO;
+
 
 @Document
 public class Comment {
@@ -11,14 +13,14 @@ public class Comment {
 	
 	private String text;
 	private Date date;
-	private User author;
+	private AuthorDTO author;
 	
 	public Comment() {
 		
 	}
 
 
-	public Comment(String text, Date date,User author) {
+	public Comment(String text, Date date,AuthorDTO author) {
 		super();
 		this.text = text;
 		this.date = date;
@@ -46,12 +48,12 @@ public class Comment {
 	}
 
 
-	public User getAuthor() {
+	public AuthorDTO getAuthor() {
 		return author;
 	}
 
 
-	public void setAuthor(User author) {
+	public void setAuthor(AuthorDTO author) {
 		this.author = author;
 	}
 	
