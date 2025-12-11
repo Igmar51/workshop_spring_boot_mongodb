@@ -1,10 +1,11 @@
 package com._igmar.workshopmongo.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com._igmar.workshopmongo.domain.Post;
-import com._igmar.workshopmongo.domain.User;
 import com._igmar.workshopmongo.repository.PostRepository;
 import com._igmar.workshopmongo.services.exception.ObjecNotFoundException;
 
@@ -22,6 +23,10 @@ public class PostService {
 	 throw new IllegalArgumentException("ID não pode ser nulo");
 	}
 	return repo .findById(id).orElseThrow(() -> new ObjecNotFoundException("Objeto não encotrado"));
+	}
+	
+	public List<Post> findByTitle(String text){
+		return repo.findByTitleContainingIgnoreCase(text);
 	}
 }
 
